@@ -84,6 +84,8 @@ app.get("/comments", function(req, res) {
     });
 });
 
+//need to post and populate articles/comments
+
   app.listen(PORT, function() {
     console.log("App running on port " + PORT + "!");
   });
