@@ -2,6 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Scraping With Mongoose</title>
     <style>
       body { background-color: #F2F6D0 }
@@ -17,10 +18,7 @@
         width: 60%;
         height: 700px;
       }
-      #notes {
-        float: right;
-        width: 30%;
-      }
+      
       textarea, input {
         display: block;
         width: 100%;
@@ -38,10 +36,9 @@
   </head>
   <body>
     <div id="wrapper">
-      <h1>Note Scraper</h1>
-      <h2><i>If you can do this...the homework should be no problem.</i></h2>
-      <div id="articles"></div>
-      <div id="notes"></div>
+      <h1>Mongo Scraper</h1>
+      <h2></h2>
+      <div id="articles" class="container-fluid article-container"></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
